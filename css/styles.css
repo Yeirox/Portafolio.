@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  .wrapper ,.portafolio{
+      width: 100vw;
+      height: 100vh;
+      background-color: #191c32;
+      color: white;
+      
+  }
+  .navbar{
+      display: flex;
+      justify-content: space-between;
+      padding: 2em;
+  }
+  .brand span {
+      color: aqua;
+
+  }
+  .brand{
+      margin-top: -7px;
+
+  }
+  .menu{
+      display: flex;
+      width: 50%;
+      justify-content: space-around ;
+  }
+  .menu li{
+      list-style: none;
+      
+  }
+
+  .menu a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px ;
+  }
+  .menu .active{
+      color: aqua;
+  }
+  .menu a:hover{
+      background-color:aqua;
+      color: #191c32;
+      transition: ease-in .8s;
+  }
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+}
+.bordes-redondeados {
+    border-radius: 50%;
+    width: 350px;
+    border: 7px solid aqua;
+}
+h1{
+    font-size: 2em;
+}
+
+span{
+    color: aqua;
+}
+
+.descarga-cv {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px 5px rgba(aqua, 231, 200, 69);
+
+}
+
+.descarga-cv:hover{
+    background-color: white;
+    box-shadow: none;
+
+}
+
+.acerca {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    align-items: center;
+    
+    
+}
+
+.retrato{
+    width: 70vh;
+    grid-column: 1/5;
+
+}
+
+.acerca-info{
+    grid-column: 5/10;
+    padding: 3em;
+    color: #191c32;
+}
+
+.acerca-info h2{
+    font-size: 2em;
+    color:#191c32;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+.acerca p{
+    margin-bottom: 1em;
+}
+
+.portafolio-hedings{
+    width: 100vw;
+    padding: 5em;
+}
+
+.portafolio-hedings h2{
+    font-size:2.5em;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    background-color:black;
+    height: 350px;
+       
+}
+
+.card_img{
+    width: 100%;
+    height: 150px;
+    background-image: url(../portfolio-tutorial-master/img/2-original.png);
+    background-size: cover;
+}
+
+.card_title{
+    padding: 20px;
+}
+
+.proyectos-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.proyectos-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.proyectos-links i {
+    font-size: 1.5em;
+}
+
+.proyectos{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+
+}
+
+.proyectos a {
+    text-decoration: none;
+    color: #191c32;
+}
+
+.seccion-contacto{
+    width: 100vw;
+    background-color: #191c32;
+    padding: 3em;
+    margin: 0 auto;
+    color: white;
+
+}
+.area-contacto{
+    display: flex;
+    justify-content:right;
+
+}
+.area-contacto h4{
+    margin: 1.5em;
+    
+    
+}
+.seccion-contacto h2{
+    font-size: 2.5em;
+}
+
+.seccion-contacto img{
+    width: 550px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;    
+}
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.form textarea{
+    height: 100px;
+    background: none;
+    color: white;
+    padding: 1.5em;
+    border: 1px solid white;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin:1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.btn-submit:hover{
+    background-color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+}
+
+.footer-content{
+    font-size: 1.5em;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1.5em;
+}
+
+.redes-sociales i{
+    font-size: 1.5em;
+    color: black;
+}
